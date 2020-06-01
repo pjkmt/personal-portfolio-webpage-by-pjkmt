@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Font Awesome 5 KIT CODE -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/personal_portfolio_webpage_main_design.css">
+
+    <link rel="stylesheet" href="assets/css/responsive-navigation-bar-style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+            flex: 50%;
+            max-width: 50%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 700px) {
+        .column {
+            flex: 100%;
+            max-width: 100%;
+        }
+        }
+    </style>
+
+    <title>Personal Portfolio Webpage by PJKMT</title>
+</head>
+<body>
+    <nav id="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">PJKMT</label>
+        <ul>
+            <li><a class="" href="#"> <i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about-me"> <i class="fas fa-question-circle"></i> About Me</a></li>
+            <li><a href="#projects"> <i class="fas fa-tasks"></i> Portfolio</a></li>
+            <!-- <li><a href="#skills"> <i class="far fa-chart-bar"></i> Skills</a></li> -->
+            <li><a href="#contact"> <i class="far fa-id-card"></i>  Contact</a></li>
+        </ul>
+    </nav>
+    
+<div id="main">
+    <div id="content-wrap">
+        <div id="welcome-section" class="banner-area">
+            <div class="banner-text">
+                <h1>Hi I'm Paul John Kristoffer M. Tejo</h1>
+            </div>
+        </div>
+
+        <section id="about-me">
+            <h1 id="title" class="zoom"> <i class="fas fa-question-circle"></i> About Me</h1>
+            <div class="zoom">
+                <!-- <p class="center introduction">Check Out My Portfolio Projects :-)</p> -->
+            </div>
+
+            <div id="about-info" class="">
+                <p class="center about-info">
+                    I'm <b>Paul John Kristoffer M. Tejo</b> I like to Develop Website Applications to help the people around the world to make their life easier.
+
+                    Check out my Website and explore my works and if you want to know a lot about me drop any message on my Contact Section through my Social Media Links and Thank You for visiting my Website.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1 id="title" class="zoom"> <i class="fas fa-tasks"></i> Projects</h1>
+                <!-- <div class="zoom">
+                    <p class="center introduction">Check Out My Portfolio Projects :-)</p>
+                </div> -->
+            
+                <div id="img-div">
+                    <div class="row">
+                        <div class="column"></div>
+                        <div class="column">
+                        
+                            <div class="container">
+
+                                <a href="https://pjkmt.github.io/tribute-page-for-steve-jobs/" target="_blank">
+                                    <img id="image" class="zoom project-tile image" src="https://drive.google.com/uc?id=1ge0owtas7Csteu7zRGrkGzCwYAofNwmA" alt="Portfolio Project 1">
+                                </a>
+                                <div class="middle">
+                                    <div class="text">Project 1</div>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <a href="https://pjkmt.github.io/survey-form-for-rose-and-lito-variety-store/" target="_blank">
+                                    <img id="image" class="zoom project-tile image" src="https://drive.google.com/uc?id=13QB6Ji4pbLDNDlvpwWw2lqG4g3A71h7t" alt="Portfolio Project 2">
+                                </a>
+                                <div class="middle">
+                                    <div class="text">Project 2</div>
+                                </div>
+                            </div>
+                            
+                            <div class="container">
+                                <a href="https://pjkmt.github.io/product-landing-page-for-rose-and-lito-variety-store/" target="_blank">
+                                    <img id="image" class="zoom project-tile image" src="https://drive.google.com/uc?id=1GQZv6GZC83a_KcKdvDU7yUYxH1X8J1Jp" alt="Portfolio Project 3">
+                                </a>
+                                <div class="middle">
+                                    <div class="text">Project 3</div>
+                                </div>
+                            </div>
+                            
+                            <div class="container">
+                                <a href="https://pjkmt.github.io/technical-documentation-page-for-personal-computer/" target="_blank">
+                                    <img id="image" class="zoom project-tile image" src="https://drive.google.com/uc?id=1SCY5ewGDtUggnh69qQjRc--LnTpOHDFq" alt="Portfolio Project 4">
+                                </a>
+                                <div class="middle">
+                                    <div class="text">Project 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="column">
+                            <div class="container">
+                                <a href="#coming-soon">
+                                    <img id="image" class="zoom project-tile image" src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Coming Soon :-)">
+                                </a>
+                                <div class="middle">
+                                    <div class="text">Coming Soon :-)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+        </section>
+
+        <!-- <section id="skills">
+            <p>Skills</p>
+        </section> -->
+    </div>
+
+    <section id="contact">
+        <footer class="center" id="footer">
+
+                <p>&copy 2020 by Paul John Kristoffer M. Tejo</p>
+
+            <i class="fab fa-facebook-square zoom"></i>
+            <i class="fab fa-instagram-square zoom"></i>
+            <i class="fab fa-twitter zoom"></i>
+            <i class="fab fa-linkedin zoom"></i>
+      
+            <a href="https://github.com/pjkmt" id="profile-link" target="_blank">
+                <i class="fab fa-github zoom"></i>
+            </a>
+
+            <a href="https://gitlab.com/pauljohnkristoffermagtalastejo" id="profile-link" target="_blank">
+                <i class="fab fa-gitlab zoom"></i>
+            </a>
+
+            <a href="https://www.freecodecamp.org/pjkmt" id="profile-link"target="_blank">
+                <i class="fab fa-free-code-camp zoom"></i>
+            </a>
+        </footer>
+    </section>
+</div>
+        
+
+
+  <!-- freeCodeCamp Test Suite CDN -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
